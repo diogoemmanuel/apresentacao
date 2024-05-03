@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+
+    <div class="container text-center"> 
+        <section class="user-info">
+            <img src="imagens/imagem-Perfil.jpg" alt="Imagem de Perfil" class="rounded-circle">
+            <h2 id="nome-usuario">Diogo Emmanuel Santos de Santana</h2>
+            <p><strong>Idade:</strong> <span id="idade-usuario">27 anos</span></p>
+            <p><strong>Endereço:</strong> <span id="endereco-usuario">Rua Hidelbrando Torres 55, Centro, Neópolis,
+                    Sergipe</span></p>
+            <p><strong>Biografia:</strong> <span id="biografia-usuario">Meu nome é Diogo Emmanuel, tenho 28 anos e nasci
+                    na encantadora
+                    cidade de Penedo, Alagoas. Atualmente, moro em Neópolis, Sergipe, bem próximo à minha cidade natal.
+
+                    Minha trajetória rumo à tecnologia começou de maneira inesperada. Enquanto me preparava para
+                    ingressar na faculdade de medicina em 2019, algo incrível aconteceu: descobri minha verdadeira
+                    paixão pela programação. Fiquei fascinado pela ideia de criar soluções e resolver problemas por meio
+                    do código.
+
+                    Decidi então seguir um novo caminho e me matriculei no curso de Sistemas de Informação da
+                    Universidade Federal de Alagoas, no campus Arapiraca. Lá, mergulhei de cabeça nos estudos,
+                    dedicando-me a aprimorar minhas habilidades de programação e desenvolvimento de sistemas.
+
+                    Em 2022, surgiu minha primeira oportunidade profissional: um estágio na prefeitura de Penedo. Nesse
+                    papel, atuei como suporte técnico, lidando com diversas questões relacionadas à tecnologia. Além
+                    disso, tive a incrível oportunidade de participar ativamente da criação do sistema de estoque do
+                    Departamento de TI. Essa experiência só fez aumentar minha paixão pela programação, consolidando
+                    minha determinação em me tornar um desenvolvedor de software de destaque.
+
+                    Minha jornada até aqui tem sido emocionante e cheia de aprendizados. Continuo trilhando meu caminho
+                    com entusiasmo e determinação, pronto para enfrentar os desafios e explorar todas as oportunidades
+                    que o mundo da tecnologia tem a oferecer.</span></p>
+        </section>
+
+        <section class="update-form">
+            <h2>Atualizar Informações</h2>
+            <form id="form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="idade">Idade:</label>
+                    <input type="text" id="idade" name="idade" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="biografia">Biografia:</label>
+                    <textarea id="biografia" name="biografia" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Atualizar</button>
+            </form>
+        </section>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
